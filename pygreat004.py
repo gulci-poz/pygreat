@@ -49,4 +49,42 @@ m = ['bb', 'aa', 'cc']
 m.sort(reverse=True)
 print(m)
 
-# 110 - Bounds Checking
+m = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+print(m)
+print(m[1])
+print(m[1][1])
+
+# list comprehension expression
+
+# wyrażenie jest wykonywane dla każdego elementu w sekwencji
+# wyrażeniem jest row[1], mamy sekwencję list z m
+col2 = [row[1] for row in m]
+print(col2)
+col2plus = [row[1] + 1 for row in m]
+print(col2plus)
+col2mod = [row[1] for row in m if row[1] % 2 == 0]
+print(col2mod)
+col2bin = [(row[1] % 2 == 0) for row in m]
+print(col2bin)
+
+# możemy iterować po dowolnym obiekcie iterable
+diag = [m[i][i] for i in [0, 1, 2]]
+print(diag)
+
+doubles = [c * 2 for c in 'spam']
+print(doubles)
+print(''.join(doubles))
+doubles = [c.upper() + c for c in 'spam']
+print(doubles)
+print(''.join(doubles))
+codes = [ord(c) for c in 'spam']
+print(codes)
+# print('\x73')
+
+# w py3 wymagane jest otoczenie list()
+print(list(range(4)))
+# od, do, co ile
+print(list(range(-6, 7, 2)))
+
+# w comprehension możemy zebrać wiele wartości, musimy je opakować w zagnieżdżoną kolekcję
+# s. 112
