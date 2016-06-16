@@ -82,5 +82,3 @@
 # stack tracebacks
 
 # mamy jeszcze typy zdefiniowane w modułach biblioteki standardowej
-
-# Numbers - 97
