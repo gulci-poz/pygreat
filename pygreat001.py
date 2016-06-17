@@ -57,7 +57,7 @@
 # Tuples
 # (1, 'spam', 4, 'U')
 # tuple('spam')
-# namedtuple
+# named tuple
 
 # Files
 # open('eggs.txt')

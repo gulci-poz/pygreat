@@ -9,7 +9,7 @@ import random
 
 # dostępne są liczby rzeczywiste, z numeratorem i denominatorem
 # liczby zespolone
-# decimals - ze zminną precyzją
+# decimals - ze stałą (fixed) precyzją
 
 # samo obliczenie zajmuje dłuższą chwilę, nie ma co drukować
 # print(len(str(2 ** 1000000)))
